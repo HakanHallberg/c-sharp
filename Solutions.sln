@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestLib", "MultiplierTestLib\MultiplierTestLib.csproj", "{1DAFBAC9-D7C0-48D7-A6FE-24C823F13605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierLib", "MultiplierLib\MultiplierLib.csproj", "{02CB7E35-719E-4F30-8C39-F1F4A32D352F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAFBAC9-D7C0-48D7-A6FE-24C823F13605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAFBAC9-D7C0-48D7-A6FE-24C823F13605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAFBAC9-D7C0-48D7-A6FE-24C823F13605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAFBAC9-D7C0-48D7-A6FE-24C823F13605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CB7E35-719E-4F30-8C39-F1F4A32D352F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CB7E35-719E-4F30-8C39-F1F4A32D352F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CB7E35-719E-4F30-8C39-F1F4A32D352F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CB7E35-719E-4F30-8C39-F1F4A32D352F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
