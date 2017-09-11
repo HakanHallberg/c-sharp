@@ -13,7 +13,6 @@ namespace MultiplierTestLib
             MultiplierLib.MultiClass myTest = new MultiplierLib.MultiClass();
             //Act
             var actual = myTest.Simple(20, 20);
-            
             //Assert
             Assert.AreEqual(400, actual);
         }

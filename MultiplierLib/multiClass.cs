@@ -25,4 +25,6 @@ namespace MultiplierLib
             return total;
         }
     }
+
+    
 }

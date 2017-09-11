@@ -48,8 +48,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileConverter.cs" />
     <Compile Include="MultiClassTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrizeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
