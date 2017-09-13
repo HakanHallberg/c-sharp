@@ -46,6 +46,7 @@
     <Compile Include="MultiClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchaseCalculation.cs" />
+    <Compile Include="StoryTeller.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="before.txt" />

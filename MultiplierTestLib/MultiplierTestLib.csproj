@@ -53,11 +53,16 @@
     <Compile Include="MultiClassTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrizeTest.cs" />
+    <Compile Include="StoryTellerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MultiplierLibTests\MultiplierLibTests.csproj">
+      <Project>{e9131a1c-baeb-430a-9464-dd01e8af11d5}</Project>
+      <Name>MultiplierLibTests</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MultiplierLib\MultiplierLib.csproj">
       <Project>{02cb7e35-719e-4f30-8c39-f1f4a32d352f}</Project>
       <Name>MultiplierLib</Name>
