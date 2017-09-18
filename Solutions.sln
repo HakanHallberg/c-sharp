@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Varukorg", "Varukorg", "{B1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multiplier", "Multiplier", "{89FCAE4C-A0CF-45A2-A79E-2F28EDCAA3F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellerApp", "StorytellerApp\StorytellerApp.csproj", "{1AEC4794-1264-4A55-B2B2-128946B2576D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C89B7188-F7A9-4833-88CC-50417393D128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89B7188-F7A9-4833-88CC-50417393D128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89B7188-F7A9-4833-88CC-50417393D128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEC4794-1264-4A55-B2B2-128946B2576D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEC4794-1264-4A55-B2B2-128946B2576D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEC4794-1264-4A55-B2B2-128946B2576D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEC4794-1264-4A55-B2B2-128946B2576D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{E9131A1C-BAEB-430A-9464-DD01E8AF11D5} = {89FCAE4C-A0CF-45A2-A79E-2F28EDCAA3F0}
 		{F055388E-325A-454A-B080-1A5D61B3F24B} = {B13FACE1-F702-4BEA-A2F7-6F5C18C37DAF}
 		{C89B7188-F7A9-4833-88CC-50417393D128} = {B13FACE1-F702-4BEA-A2F7-6F5C18C37DAF}
+		{1AEC4794-1264-4A55-B2B2-128946B2576D} = {039F433E-6E23-4A49-8127-A9ADA1447901}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEA4E433-D4F8-410E-AE79-BBEB1C4B1595}

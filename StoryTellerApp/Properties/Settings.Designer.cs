@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StoryTellerApp.Properties
+namespace StorytellerApp.Properties
 {
 
 

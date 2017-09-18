@@ -67,6 +67,10 @@
       <Project>{02cb7e35-719e-4f30-8c39-f1f4a32d352f}</Project>
       <Name>MultiplierLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StorytellerApp\StorytellerApp.csproj">
+      <Project>{1aec4794-1264-4a55-b2b2-128946b2576d}</Project>
+      <Name>StorytellerApp</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="after.txt" />

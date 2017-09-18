@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1771A6A5-5485-4C54-9AC3-BBA161E035A9}</ProjectGuid>
+    <ProjectGuid>{1AEC4794-1264-4A55-B2B2-128946B2576D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>StoryTellerApp</RootNamespace>
-    <AssemblyName>StoryTellerApp</AssemblyName>
+    <RootNamespace>StorytellerApp</RootNamespace>
+    <AssemblyName>StorytellerApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StoryTeller.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StoryTeller.Designer.cs">
-      <DependentUpon>StoryTeller.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="StoryTeller.resx">
-      <DependentUpon>StoryTeller.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
