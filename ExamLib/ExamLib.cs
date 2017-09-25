@@ -9,7 +9,7 @@ namespace ExamLib
     public class Exam
     {
         private string coursename;
-        //private object namn;
+        
         private Dictionary<Student, string> StudentGradeDictionary =
             new Dictionary<Student, string>();
 
