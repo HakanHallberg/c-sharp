@@ -7,6 +7,7 @@ namespace GuessNumberLib
         private int numberToGuess = 42;
         private int _triesMade;
         private int _lastGuess;
+
         public GuessNumber()
         {
             var random = new Random();
