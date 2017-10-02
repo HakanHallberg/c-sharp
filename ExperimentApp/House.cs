@@ -11,6 +11,11 @@ namespace ExperimentApp
         {
             get
             {
+               /* int numberOfClosedWindows = 0;
+                foreach (var room in Rooms)
+                {
+                    numberOfClosedWindows += room.NumberOfClosedWindows;
+                } */
                 return Rooms.Sum(room => room.NumberOfClosedWindows);
             }
         }
