@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SchoolCount
 {
-    internal class School
+    public class School
     {
      
         private string nameOfSchool;

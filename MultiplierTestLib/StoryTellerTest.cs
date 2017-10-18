@@ -5,7 +5,7 @@ using MultiplierLib;
 namespace MultiplierTestLib
 {
     [TestClass]
-    public class StoryTellerTest
+    public class StoryTellerTest // är ett Use Case
     {
         [TestMethod]
         public void TellStoryToYoungNotScary()

@@ -1,6 +1,6 @@
 ﻿namespace SchoolCount
 {
-    internal class Class
+    public class Class
     {
         public int students;
 
