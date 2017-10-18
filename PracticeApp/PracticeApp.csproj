@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{292D7C80-224A-489F-8F3D-8E0C53BD39BC}</ProjectGuid>
+    <ProjectGuid>{C1B39555-7EB3-4FA4-84A6-285811CF5C6A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PracticeApp</RootNamespace>
     <AssemblyName>PracticeApp</AssemblyName>
@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,12 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PracticeLib\PracticeLib.csproj">
-      <Project>{5c0c6b5c-d94b-4ba8-981c-258527c578ae}</Project>
-      <Name>PracticeLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
