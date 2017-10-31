@@ -20,7 +20,7 @@ namespace IdTest
 
         private void Process(string idTest)
         {
-            this.IdTestMethod
+            this.IdTestMethod();
             
         }
     }

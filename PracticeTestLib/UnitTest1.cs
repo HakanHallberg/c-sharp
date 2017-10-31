@@ -1,13 +1,14 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PracticeLib;
 
 namespace PracticeTestLib
 {
     [TestClass]
-    public class UnitTest1
+    public class InfoFormTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void FillOutForm()
         {
         }
     }

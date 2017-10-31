@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeLib
+namespace MultiplyingFiles
 {
-    public class Class1
+    class NumbersFile2
     {
     }
 }
